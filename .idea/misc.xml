@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/assistant-rest-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-rest-admin/pom.xml" />
       </list>
     </option>
   </component>
