@@ -29,16 +29,19 @@ public class LevelController {
         //查询出所有的分类
         List<Level> levelList = levelService.list();
         List<Map<String, Object>> resultList = new ArrayList<>();
-        //遍历分类，筛选出所有一级分类
-        levelList.forEach(level -> {
-            Map<String, Object> levelMap = new HashMap<>();
-            if (0 == level.getParentId()) {
-                levelMap.put("label", level.getName());
-                //调用递归函数，查询出所有下级
-                levelMap.put("children", TreeUtil.menuChild(level.getId(), levelList));
-                resultList.add(levelMap);
-            }
-        });
+        if (levelList.size() > 0){
+            //遍历分类，筛选出所有一级分类
+            levelList.forEach(level -> {
+                Map<String, Object> levelMap = new HashMap<>();
+                if (0 == level.getParentId()) {
+                    levelMap.put("id", level.getId());
+                    levelMap.put("label", level.getName());
+                    //调用递归函数，查询出所有下级
+                    levelMap.put("children", TreeUtil.menuChild(level.getId(), levelList));
+                    resultList.add(levelMap);
+                }
+            });
+    }
         resultMap.put("data", resultList);
         resultMap.put("success", true);
         return resultMap;
@@ -47,9 +50,47 @@ public class LevelController {
     //保存分类数据
     @PostMapping("save")
     public Map<String,Object> sqve(@Valid Level level) {
-        levelService.save(level);
         Map<String,Object> resultMap = new HashMap<>();
+
+        if (level.getId() != null){
+            levelService.updateById(level);
+        }else {
+            levelService.save(level);
+        }
+        resultMap.put("levelData",level);
         resultMap.put("success",true);
         return resultMap;
+    }
+
+    /**
+     *  根据父级id查询该父级id下的所有子级数据
+     * @param parentId
+     * @return
+     */
+    @PostMapping("getByParentId")
+    public  Map<String,Object> getgetByParentId(@RequestParam  Long parentId){
+        Map<String,Object> resultMap = new HashMap<>();
+        QueryWrapper<Level> queryWrapper = new QueryWrapper<>();
+        queryWrapper.lambda().eq(Level::getParentId, parentId);
+        List<Level> levelList = levelService.list(queryWrapper);
+        resultMap.put("data",levelList);
+        resultMap.put("success",true);
+        return  resultMap;
+    }
+
+    /**
+     *  根据id获取数据
+     * @param id
+     * @return
+     */
+    @PostMapping("get")
+    public  Map<String,Object> get(@RequestParam  Long id){
+        Map<String,Object> resultMap = new HashMap<>();
+        QueryWrapper<Level> queryWrapper = new QueryWrapper<>();
+        queryWrapper.lambda().eq(Level::getId, id);
+        List<Level> levelList = levelService.list(queryWrapper);
+        resultMap.put("data",levelList);
+        resultMap.put("success",true);
+        return  resultMap;
     }
 }
