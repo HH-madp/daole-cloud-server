@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="assistant-rest-admin" />
+        <module name="commom-rst-admin" />
         <module name="daole-cloud-server" />
         <module name="sso-rest-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="assistant-rest-admin" target="1.8" />
+      <module name="commom-rst-admin" target="1.8" />
       <module name="daole-cloud-server" target="1.8" />
       <module name="sso-rest-admin" target="1.8" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="assistant-rest-admin" options="-parameters" />
+      <module name="commom-rst-admin" options="-parameters" />
       <module name="daole-cloud-server" options="-parameters" />
       <module name="sso-rest-admin" options="-parameters" />
     </option>
