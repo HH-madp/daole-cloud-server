@@ -173,11 +173,6 @@
               <item name="daole-cloud-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="daole-cloud-server" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="daole-cloud-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daole-cloud-server" type="462c0819:PsiDirectoryNode" />
-              <item name="commom-rst-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -191,7 +186,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578968662311" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578968921347" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -263,7 +258,7 @@
       <workItem from="1578800737442" duration="7728000" />
       <workItem from="1578877961310" duration="12714000" />
       <workItem from="1578900426274" duration="3149000" />
-      <workItem from="1578962183914" duration="5968000" />
+      <workItem from="1578962183914" duration="6270000" />
     </task>
     <task id="LOCAL-00001" summary="平台助手">
       <created>1578537424749</created>
@@ -335,15 +330,28 @@
       <option name="project" value="LOCAL" />
       <updated>1578968319338</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="配置docker">
+      <created>1578968727730</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578968727730</updated>
+    </task>
+    <task id="LOCAL-00012" summary="配置docker">
+      <created>1578968761621</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578968761621</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62137000" />
+    <option name="totallyTimeSpent" value="62439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22654155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -375,7 +383,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
