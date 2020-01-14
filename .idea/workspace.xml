@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f27aa199-dbcd-4463-ab71-4196c9e4956c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commom-rst-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commom-rst-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/sso-rest-admin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="8" column="47" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="8" selection-end-column="47" />
+              <caret line="8" column="47" selection-start-line="5" selection-start-column="7" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -193,7 +191,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578968309118" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578968662311" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -265,7 +263,7 @@
       <workItem from="1578800737442" duration="7728000" />
       <workItem from="1578877961310" duration="12714000" />
       <workItem from="1578900426274" duration="3149000" />
-      <workItem from="1578962183914" duration="5540000" />
+      <workItem from="1578962183914" duration="5968000" />
     </task>
     <task id="LOCAL-00001" summary="平台助手">
       <created>1578537424749</created>
@@ -330,11 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578967760144</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="配置docker">
+      <created>1578968319338</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578968319338</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61709000" />
+    <option name="totallyTimeSpent" value="62137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -550,7 +555,7 @@
     <entry file="file://$PROJECT_DIR$/sso-rest-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="8" selection-end-column="47" />
+          <caret line="8" column="47" selection-start-line="5" selection-start-column="7" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
