@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="assistant-rest-admin" />
         <module name="commom-rst-admin" />
-        <module name="daole-cloud-server" />
         <module name="sso-rest-admin" />
       </profile>
     </annotationProcessing>
