@@ -10,6 +10,7 @@
     </parent>
     <groupId>com.daole.cloud</groupId>
     <artifactId>commom-rest-admin</artifactId>
+    <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>commom-rest-admin</name>
     <description>common</description>

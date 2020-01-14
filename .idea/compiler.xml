@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="assistant-rest-admin" />
         <module name="commom-rest-admin" />
         <module name="sso-rest-admin" />
       </profile>
