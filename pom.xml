@@ -22,7 +22,7 @@
     <modules>
         <module>assistant-rest-admin</module>
         <module>sso-rest-admin</module>
-        <module>commom-rst-admin</module>
+        <module>commom-rest-admin</module>
     </modules>
 
     <dependencies>

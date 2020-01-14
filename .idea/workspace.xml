@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java" line="68" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27aa199-dbcd-4463-ab71-4196c9e4956c" name="Default Changelist" comment="">
+    <list default="true" id="f27aa199-dbcd-4463-ab71-4196c9e4956c" name="Default Changelist" comment="配置docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/AssistantRestAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/AssistantRestAdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/config/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/controller/LevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/entity/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/entity/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/mapper/LevelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/mapper/LevelMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/service/LevelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/service/LevelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/service/LevelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/service/LevelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/util/TreeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/util/TreeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/test/java/com/daole/cloud/AssistantRestAdminApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/test/java/com/daole/cloud/sso/AssistantRestAdminApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commom-rst-admin/src/main/java/com/daole/cloud/CommomRstAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-rst-admin/src/main/java/com/daole/cloud/common/CommomRstAdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commom-rst-admin/src/main/java/com/daole/cloud/vo/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-rst-admin/src/main/java/com/daole/cloud/common/vo/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commom-rst-admin/src/test/java/com/daole/cloud/CommomRstAdminApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-rst-admin/src/test/java/com/daole/cloud/sso/CommomRstAdminApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-rest-admin/src/main/java/com/daole/cloud/SsoRestAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-rest-admin/src/main/java/com/daole/cloud/sso/SsoRestAdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-rest-admin/src/main/java/com/daole/cloud/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-rest-admin/src/main/java/com/daole/cloud/sso/config/MyBatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-rest-admin/src/main/java/com/daole/cloud/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-rest-admin/src/main/java/com/daole/cloud/sso/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/AssistantRestAdminApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/entity/Level.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/mapper/LevelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/service/LevelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/service/LevelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/util/TreeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/test/java/com/daole/cloud/sso/AssistantRestAdminApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,15 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commom-rst-admin/src/main/java/com/daole/cloud/common/vo/R.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="141">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -77,26 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commom-rst-admin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assistant-rest-admin/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="28" selection-start-line="8" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="112">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -115,7 +89,11 @@
     <findStrings>
       <find>fail</find>
       <find>jar</find>
+      <find>commom-rst-admin</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,10 +128,11 @@
         <option value="$PROJECT_DIR$/assistant-rest-admin/pom.xml" />
         <option value="$PROJECT_DIR$/sso-rest-admin/pom.xml" />
         <option value="$PROJECT_DIR$/commom-rst-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/common/controller/LevelController.java" />
         <option value="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/sso/controller/LevelController.java" />
         <option value="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/commom-rest-admin/pom.xml" />
       </list>
     </option>
   </component>
@@ -188,51 +167,6 @@
               <item name="daole-cloud-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="daole-cloud-server" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="daole-cloud-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daole-cloud-server" type="462c0819:PsiDirectoryNode" />
-              <item name="assistant-rest-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daole-cloud-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daole-cloud-server" type="462c0819:PsiDirectoryNode" />
-              <item name="assistant-rest-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daole-cloud-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daole-cloud-server" type="462c0819:PsiDirectoryNode" />
-              <item name="assistant-rest-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daole-cloud-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daole-cloud-server" type="462c0819:PsiDirectoryNode" />
-              <item name="assistant-rest-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daole-cloud-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daole-cloud-server" type="462c0819:PsiDirectoryNode" />
-              <item name="assistant-rest-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assistant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daole-cloud-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daole-cloud-server" type="462c0819:PsiDirectoryNode" />
-              <item name="assistant-rest-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assistant" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -246,7 +180,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578971122851" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578971665902" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -276,14 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AssistantRestAdminApplication">
-    <configuration name="AssistantRestAdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="assistant-rest-admin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.daole.cloud.assistant.AssistantRestAdminApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SsoRestAdminApplication">
     <configuration name="AssistantRestAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="assistant-rest-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.daole.cloud.AssistantRestAdminApplication" />
@@ -291,23 +218,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommomRstAdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="commom-rst-admin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.daole.cloud.common.CommomRstAdminApplication" />
+    <configuration name="AssistantRestAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="assistant-rest-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.daole.cloud.assistant.AssistantRestAdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CommomRstAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="commom-rst-admin" />
+      <module name="commom-rest-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.daole.cloud.CommomRstAdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SsoRestAdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="sso-rest-admin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.daole.cloud.sso.SsoRestAdminApplication" />
+    <configuration name="CommomRstAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="commom-rest-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.daole.cloud.common.CommomRstAdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,6 +248,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SsoRestAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sso-rest-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.daole.cloud.sso.SsoRestAdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AssistantRestAdminApplication" />
+      <item itemvalue="Spring Boot.CommomRstAdminApplication" />
+      <item itemvalue="Spring Boot.SsoRestAdminApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -339,7 +281,7 @@
       <workItem from="1578800737442" duration="7728000" />
       <workItem from="1578877961310" duration="12714000" />
       <workItem from="1578900426274" duration="3149000" />
-      <workItem from="1578962183914" duration="7784000" />
+      <workItem from="1578962183914" duration="8178000" />
     </task>
     <task id="LOCAL-00001" summary="平台助手">
       <created>1578537424749</created>
@@ -439,15 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578970545462</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="配置docker">
+      <created>1578971160250</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578971160250</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63953000" />
+    <option name="totallyTimeSpent" value="64347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22654155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -646,6 +594,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commom-rst-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sso-rest-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -653,24 +615,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commom-rst-admin/pom.xml">
+    <entry file="file://$PROJECT_DIR$/commom-rest-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="88">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="141">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
