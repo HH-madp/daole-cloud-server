@@ -1,4 +1,4 @@
-package com.daole.cloud;
+package com.daole.cloud.sso;
 
 class AssistantRestAdminApplicationTests {
 

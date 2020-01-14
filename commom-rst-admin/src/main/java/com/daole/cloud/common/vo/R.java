@@ -1,4 +1,4 @@
-package com.daole.cloud.vo;
+package com.daole.cloud.common.vo;
 
 import lombok.Data;
 

@@ -1,12 +1,12 @@
-package com.daole.cloud.controller;
+package com.daole.cloud.assistant.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.daole.cloud.vo.R;
-import com.daole.cloud.entity.Level;
-import com.daole.cloud.service.LevelService;
-import com.daole.cloud.util.TreeUtil;
+import com.daole.cloud.assistant.service.LevelService;
+import com.daole.cloud.assistant.entity.Level;
+import com.daole.cloud.common.vo.R;
+import com.daole.cloud.assistant.util.TreeUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

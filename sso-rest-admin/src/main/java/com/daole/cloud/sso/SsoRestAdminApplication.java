@@ -1,13 +1,12 @@
-package com.daole.cloud;
+package com.daole.cloud.sso;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CommomRstAdminApplication {
-
+public class SsoRestAdminApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CommomRstAdminApplication.class, args);
+        SpringApplication.run(SsoRestAdminApplication.class, args);
     }
 
 }

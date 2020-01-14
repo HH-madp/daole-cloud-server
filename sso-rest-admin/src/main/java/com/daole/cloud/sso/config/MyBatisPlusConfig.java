@@ -1,4 +1,4 @@
-package com.daole.cloud.config;
+package com.daole.cloud.sso.config;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.daole.cloud.controller;
+package com.daole.cloud.sso.controller;
 
 import org.springframework.web.bind.annotation.*;
 

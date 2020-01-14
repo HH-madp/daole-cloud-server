@@ -1,6 +1,6 @@
-package com.daole.cloud.util;
+package com.daole.cloud.assistant.util;
 
-import com.daole.cloud.entity.Level;
+import com.daole.cloud.assistant.entity.Level;
 
 import java.util.ArrayList;
 import java.util.HashMap;

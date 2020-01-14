@@ -1,4 +1,4 @@
-package com.daole.cloud.entity;
+package com.daole.cloud.assistant.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

@@ -1,7 +1,7 @@
-package com.daole.cloud.mapper;
+package com.daole.cloud.assistant.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.daole.cloud.entity.Level;
+import com.daole.cloud.assistant.entity.Level;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
