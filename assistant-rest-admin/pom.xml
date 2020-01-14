@@ -50,26 +50,26 @@
                 <!--</configuration>-->
             </plugin>
             <!-- Docker maven plugin -->
-            <!--<plugin>-->
-                <!--<groupId>com.spotify</groupId>-->
-                <!--<artifactId>docker-maven-plugin</artifactId>-->
-                <!--<version>1.0.0</version>-->
-                <!--<configuration>-->
-                    <!--<dockerHost>http://49.235.82.50:2375</dockerHost>-->
-                    <!--<imageName>49.235.82.50:8001/${project.build.finalName}:${project.version}</imageName>-->
-                    <!--<baseImage>java</baseImage>-->
-                    <!--<entryPoint>["java","-jar","/${project.build.finalName}.jar"]</entryPoint>-->
-                    <!--<exposes>1111</exposes>-->
-                    <!--<resources>-->
-                        <!--<resource>-->
-                            <!--<targetPath>/</targetPath>-->
-                            <!--<directory>${project.build.directory}</directory>-->
-                            <!--<include>${project.build.finalName}.jar</include>-->
-                        <!--</resource>-->
-                    <!--</resources>-->
-                    <!--<forceTags>true</forceTags>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <configuration>
+                    <dockerHost>http://49.235.82.50:2375</dockerHost>
+                    <imageName>49.235.82.50:8001/${project.build.finalName}:${project.version}</imageName>
+                    <baseImage>java</baseImage>
+                    <entryPoint>["java","-jar","/${project.build.finalName}.jar"]</entryPoint>
+                    <exposes>1111</exposes>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                    <forceTags>true</forceTags>
+                </configuration>
+            </plugin>
             <!-- Docker maven plugin -->
         </plugins>
     </build>
