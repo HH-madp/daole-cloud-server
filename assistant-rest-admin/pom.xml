@@ -58,6 +58,8 @@
                     <dockerHost>http://49.235.82.50:2375</dockerHost>
                     <imageName>49.235.82.50:8001/${project.build.finalName}:${project.version}</imageName>
                     <baseImage>java</baseImage>
+                    <!--docker的配置文件所在目录-->
+                    <dockerDirectory>src/main/docker</dockerDirectory>
                     <entryPoint>["java","-jar","/${project.build.finalName}.jar"]</entryPoint>
                     <exposes>1111</exposes>
                     <resources>

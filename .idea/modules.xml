@@ -3,11 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/assistant-rest-admin/assistant-rest-admin.iml" filepath="$PROJECT_DIR$/assistant-rest-admin/assistant-rest-admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/assistant-rest-admin/assistant-rest-admin.iml" filepath="$PROJECT_DIR$/assistant-rest-admin/assistant-rest-admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/commom-rest-admin/commom-rest-admin.iml" filepath="$PROJECT_DIR$/commom-rest-admin/commom-rest-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/commom-rest-admin/commom-rest-admin.iml" filepath="$PROJECT_DIR$/commom-rest-admin/commom-rest-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/daole-cloud-server.iml" filepath="$PROJECT_DIR$/daole-cloud-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sso-rest-admin/sso-rest-admin.iml" filepath="$PROJECT_DIR$/sso-rest-admin/sso-rest-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-rest-admin/sso-rest-admin.iml" filepath="$PROJECT_DIR$/sso-rest-admin/sso-rest-admin.iml" />
     </modules>
   </component>

@@ -17,4 +17,4 @@ expose 8005
 
 #镜像启动时执行的命令,配置多条仅执行最后一条
 #这里配置启动jar文件: java -jar /worker/web-1.0.jar
-entrypoint ["java","-jar","/worker/web-1.0.jar"]
+#entrypoint ["java","-jar","/worker/web-1.0.jar"]
