@@ -20,11 +20,13 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>com.daole.cloud</groupId>
             <artifactId>commom-rest-admin</artifactId>
             <version>0.0.1</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -56,7 +58,7 @@
                 <version>1.0.0</version>
                 <configuration>
                     <dockerHost>http://49.235.82.50:2375</dockerHost>
-                    <imageName>49.235.82.50:8001/${project.build.finalName}:${project.version}</imageName>
+                    <imageName>vm/${project.build.finalName}:${project.version}</imageName>
                     <baseImage>java</baseImage>
                     <!--docker的配置文件所在目录-->
                     <dockerDirectory>src/main/docker</dockerDirectory>
