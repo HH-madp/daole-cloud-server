@@ -45,17 +45,12 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <!--<configuration>-->
-                    <!--&lt;!&ndash; 指定该Main Class为全局的唯一入口 &ndash;&gt;-->
-                    <!--<mainClass>com.daole.cloud.assistant</mainClass>-->
-                    <!--<layout>ZIP</layout>-->
-                <!--</configuration>-->
             </plugin>
             <!-- Docker maven plugin -->
             <plugin>
                 <groupId>com.spotify</groupId>
-                <artifactId>docker-maven-plugin</artifactId>
-                <version>1.0.0</version>
+                <artifactId>dockerfile-maven-plugin</artifactId>
+                <version>1.4.9</version>
                 <configuration>
                     <dockerHost>http://49.235.82.50:2375</dockerHost>
                     <imageName>vm/${project.build.finalName}:${project.version}</imageName>
