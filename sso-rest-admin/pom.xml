@@ -11,12 +11,13 @@
     <groupId>com.daole.cloud</groupId>
     <artifactId>sso-rest-admin</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>sso-rest-admin</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
+        <docker.image.prefix>kitty</docker.image.prefix>
     </properties>
 
     <dependencies>
@@ -36,4 +37,48 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!-- Docker maven plugin -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <configuration>
+                    <dockerHost>http://49.235.82.50:2375</dockerHost>
+                    <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
+                    <dockerDirectory>src/main/docker</dockerDirectory>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                </configuration>
+                <!--<configuration>-->
+                <!--<dockerHost>http://49.235.82.50:2375</dockerHost>-->
+                <!--<imageName>49.235.82.50:8001/${project.build.finalName}:${project.version}</imageName>-->
+                <!--<baseImage>java</baseImage>-->
+                <!--&lt;!&ndash;docker的配置文件所在目录&ndash;&gt;-->
+                <!--<dockerDirectory>src/main/docker</dockerDirectory>-->
+                <!--<entryPoint>["java","-jar","/${project.build.finalName}.jar"]</entryPoint>-->
+                <!--<resources>-->
+                <!--<resource>-->
+                <!--<targetPath>/</targetPath>-->
+                <!--<directory>${project.build.directory}</directory>-->
+                <!--<include>${project.build.finalName}.jar</include>-->
+                <!--</resource>-->
+                <!--</resources>-->
+                <!--<forceTags>true</forceTags>-->
+                <!--</configuration>-->
+            </plugin>
+            <!-- Docker maven plugin -->
+        </plugins>
+    </build>
 </project>

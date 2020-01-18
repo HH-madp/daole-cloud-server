@@ -1,0 +1,3 @@
+1.打包命令 mvn clean package  docker:build -Dmaven.test.skip
+参考博客：https://www.wandouip.com/t5i315282/
+          https://blog.csdn.net/weixin_34186931/article/details/92103383
