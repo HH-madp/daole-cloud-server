@@ -89,7 +89,7 @@ public class LevelController {
     @PostMapping("get")
     public R get(@RequestParam Long id) {
         QueryWrapper<Level> queryWrapper = new QueryWrapper<>();
-        //设置插叙条件
+        //设置查询条件
         queryWrapper.lambda().eq(Level::getId, id);
         List<Level> levelList = levelService.list(queryWrapper);
         return R.success(levelList);

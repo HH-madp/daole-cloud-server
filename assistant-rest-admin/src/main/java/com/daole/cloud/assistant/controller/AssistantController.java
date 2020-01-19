@@ -1,5 +1,8 @@
 package com.daole.cloud.assistant.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.daole.cloud.assistant.entity.Assistant;
 import com.daole.cloud.assistant.service.AssistantService;
 import com.daole.cloud.assistant.util.TreeUtil;
@@ -24,11 +27,22 @@ public class AssistantController {
 
     //查询所有手册信息
     @PostMapping("query")
-    public R query(@RequestParam Long leId) {
+    public R query(@RequestParam(required = false, value = "pageNum", defaultValue = "0") int pageNum,
+                   @RequestParam(required = false, value = "pageSize", defaultValue = "10") int pageSize,
+                   @RequestParam Long leId) {
+        //分页查询数据
+        Page<Assistant> page = new Page<>(pageNum, pageSize);
+        QueryWrapper<Assistant> queryWrapper = new QueryWrapper<>();
+        if (leId != null) {
+            //设置查询条件
+            queryWrapper.lambda().eq(Assistant::getLeId, leId);
+        }
         //查询出所有的分类
-        List<Assistant> assistantList = assistantService.list();
-        return R.success(assistantList);
+        IPage<Assistant> pageLevel = assistantService.page(page, queryWrapper);
+        return R.success(pageLevel);
+
     }
+
     //保存手册数据
     @PostMapping("save")
     public R sqve(@Valid Assistant assistant) {

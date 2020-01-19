@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27aa199-dbcd-4463-ab71-4196c9e4956c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/AssistantController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/entity/Assistant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/mapper/AssistantMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/service/AssistantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/serviceimpl/AssistantServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/service/LevelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/serviceimpl/LevelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/AssistantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/AssistantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/entity/Assistant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="448">
               <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/AssistantController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="252">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="79" column="36" lean-forward="true" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+            <state relative-caret-position="186">
+              <caret line="94" column="36" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="94" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,8 +130,8 @@
         <option value="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/mapper/AssistantMapper.java" />
         <option value="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/service/AssistantService.java" />
         <option value="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/serviceimpl/AssistantServiceImpl.java" />
-        <option value="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/AssistantController.java" />
         <option value="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java" />
+        <option value="$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/AssistantController.java" />
       </list>
     </option>
   </component>
@@ -180,8 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,8 +253,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579424027767" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579424030058" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fosung-cloud-societygroup-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -292,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AssistantRestAdminApplication">
+  <component name="RunManager" selected="Spring Boot.SsoRestAdminApplication">
     <configuration name="AssistantRestAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="assistant-rest-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.daole.cloud.assistant.AssistantRestAdminApplication" />
@@ -367,7 +363,8 @@
       <workItem from="1579232084792" duration="3272000" />
       <workItem from="1579312124784" duration="12486000" />
       <workItem from="1579394773715" duration="693000" />
-      <workItem from="1579395601907" duration="7147000" />
+      <workItem from="1579395601907" duration="7203000" />
+      <workItem from="1579427326627" duration="2360000" />
     </task>
     <task id="LOCAL-00001" summary="平台助手">
       <created>1578537424749</created>
@@ -530,17 +527,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579334613788</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="手册编写">
+      <created>1579424056869</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1579424056879</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115416000" />
+    <option name="totallyTimeSpent" value="117832000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22319035" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22587131" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -552,7 +556,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30169973" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.1898017" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -588,7 +592,8 @@
     </ignored-roots>
     <MESSAGE value="平台助手" />
     <MESSAGE value="配置docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置docker" />
+    <MESSAGE value="手册编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="手册编写" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/service/LevelService.java">
@@ -803,18 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/entity/Assistant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="448">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/AssistantController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -823,8 +818,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/LevelController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="79" column="36" lean-forward="true" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+        <state relative-caret-position="186">
+          <caret line="94" column="36" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="94" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assistant-rest-admin/src/main/java/com/daole/cloud/assistant/controller/AssistantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
