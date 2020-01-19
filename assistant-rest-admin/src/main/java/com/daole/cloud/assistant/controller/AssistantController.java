@@ -5,7 +5,6 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.daole.cloud.assistant.entity.Assistant;
 import com.daole.cloud.assistant.service.AssistantService;
-import com.daole.cloud.assistant.util.TreeUtil;
 import com.daole.cloud.common.vo.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -52,6 +51,35 @@ public class AssistantController {
         } else {
             assistantService.save(assistant);
         }
+        return R.success();
+    }
+
+    /**
+     * 根据id获取数据
+     *
+     * @param id
+     * @return
+     */
+    @PostMapping("get")
+    public R get(@RequestParam Long id) {
+        QueryWrapper<Assistant> queryWrapper = new QueryWrapper<>();
+        //设置查询条件
+        queryWrapper.lambda().eq(Assistant::getId, id);
+        Assistant assistant = assistantService.getOne(queryWrapper);
+        return R.success(assistant);
+    }
+
+    /**
+     * 根据id删除当前数据
+     *
+     * @param id
+     * @return
+     */
+    @PostMapping("del")
+    public R delete(@RequestParam Long id) {
+        QueryWrapper<Assistant> delWrapper = new QueryWrapper<>();
+        delWrapper.lambda().eq(Assistant::getId, id);
+        assistantService.remove(delWrapper);
         return R.success();
     }
 
