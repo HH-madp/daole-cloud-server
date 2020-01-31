@@ -3,6 +3,8 @@ package com.daole.cloud.assistant.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.daole.cloud.assistant.entity.Assistant;
+import com.daole.cloud.assistant.service.AssistantService;
 import com.daole.cloud.assistant.service.LevelService;
 import com.daole.cloud.assistant.entity.Level;
 import com.daole.cloud.assistant.util.TreeUtil;
@@ -22,8 +24,12 @@ import java.util.Map;
 @RestController
 @RequestMapping("/assistant/level")
 public class LevelController {
+
     @Autowired
     private LevelService levelService;
+
+    @Autowired
+    private AssistantService assistantService;
 
     //获取所有分类，并将分类按分级返回
     @PostMapping("levels")
@@ -113,6 +119,10 @@ public class LevelController {
             QueryWrapper<Level> delWrapper = new QueryWrapper<>();
             delWrapper.lambda().eq(Level::getId, id);
             levelService.remove(delWrapper);
+            //删除该分类下的所有手册信息
+            QueryWrapper<Assistant> assistantDelWrapper = new QueryWrapper<>();
+            assistantDelWrapper.lambda().eq(Assistant::getLeId, id);
+            assistantService.remove(assistantDelWrapper);
             return R.success();
         }
     }

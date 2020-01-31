@@ -4,7 +4,9 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.daole.cloud.assistant.entity.Assistant;
+import com.daole.cloud.assistant.entity.Level;
 import com.daole.cloud.assistant.service.AssistantService;
+import com.daole.cloud.assistant.service.LevelService;
 import com.daole.cloud.common.vo.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -21,6 +23,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/assistant/assi")
 public class AssistantController {
+
     @Autowired
     private AssistantService assistantService;
 

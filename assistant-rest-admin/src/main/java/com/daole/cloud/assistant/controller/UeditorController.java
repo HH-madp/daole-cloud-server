@@ -3,6 +3,7 @@ package com.daole.cloud.assistant.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.json.JsonMapper;
 import com.mzlion.easyokhttp.HttpClient;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
@@ -17,10 +18,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartRequest;
 
 import javax.servlet.http.HttpServletRequest;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -35,6 +33,7 @@ public class UeditorController {
     @Autowired
     private ObjectMapper objectMapper;
 
+
     /**
      * ueditor 操作
      *
@@ -44,7 +43,6 @@ public class UeditorController {
     @RequestMapping(value = "/action")
     @ResponseBody
     public Object uEditorConfig(@RequestParam String action, HttpServletRequest httpServletRequest) throws Exception {
-
 
         Object responseResult = null;
 
@@ -68,7 +66,6 @@ public class UeditorController {
                     }
                 }
             }
-
             responseResult = jsonNode != null ? jsonNode.toString() : "{}";
         } else if (StringUtils.equalsIgnoreCase(action, "uploadimage")) {
             MultipartRequest multipartRequest = null;
@@ -81,7 +78,7 @@ public class UeditorController {
             MultipartFile muFile = multipartRequest.getFile("file");
             String fileName = muFile.getOriginalFilename(); // 文件名
             String suffixName = fileName.substring(fileName.lastIndexOf("."));  // 后缀名
-            String filePath = "http://s.dtdjzx.gov.cn/cloud/oss/upload/box_resource/single/"; // 上传后的路径
+            String filePath = "http://daole-oss.oss-cn-beijing.aliyuncs.com/ueditor/"; // 上传后的路径
             fileName = UUID.randomUUID() + suffixName; // 新文件名
             //将MultipartFile转为file类型
             File file = new File(fileName);
@@ -109,4 +106,36 @@ public class UeditorController {
 
         return responseResult;
     }
+
+//    @RequestMapping(value="/image/upload")
+//    @ResponseBody
+//    public Object fileUpload(@RequestParam(value = "file") MultipartFile file, HttpServletRequest request) throws IOException {
+//        Object responseResult = null ;
+//        if (file.isEmpty()) {
+//            System.out.println("文件为空");
+//        }
+//        String fileName = file.getOriginalFilename();  // 文件名
+//        String suffixName = fileName.substring(fileName.lastIndexOf("."));  // 后缀名
+//        String filePath = "http://daole-oss.oss-cn-beijing.aliyuncs.com/ueditor/"; // 上传后的路径
+//        fileName = UUID.randomUUID() + suffixName; // 新文件名
+//        File dest = new File(filePath + fileName);
+//        if (!dest.getParentFile().exists()) {
+//            dest.getParentFile().mkdirs();
+//        }
+//        try {
+//            file.transferTo(dest);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        Map<String,Object> responseParam = new HashMap<>() ;
+//        //返回上传返回参数
+////        responseParam.put("original" , appAttachmentEntity.getOriginName() ) ;
+////        responseParam.put("title" , appAttachmentEntity.getStorageName()) ;
+////        responseParam.put("size" , appAttachmentEntity.getSize()) ;
+////        responseParam.put("state" , "SUCCESS") ;
+////        responseParam.put("type" , appAttachmentEntity.getExtension() ) ;
+////        responseParam.put("url" , appAttachmentEntity.getDownloadPath() ) ;
+//        responseResult = new JSONObject( responseParam ) ;
+//        return responseResult;
+//    }
 }

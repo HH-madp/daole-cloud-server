@@ -17,4 +17,6 @@ public class Assistant {
     //节点Id
     @TableField("leId")
     private Long leId;
+    @TableField("leName")
+    private String leName;
 }
