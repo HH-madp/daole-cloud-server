@@ -8,3 +8,11 @@ spring:
     password: Madp123!@#
 mybatis-plus:
   mapper-locations: classpath*:mapper/*.xml
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-beijing.aliyuncs.com
+      keyid: LTAI4FrfnCYueTBdnhJADQ2y
+      keysecret: NRzMULHw6zhD0WWcYNxPMOlEYrF6RF
+      bucketname: daole-oss
+      filehost: ueditor
